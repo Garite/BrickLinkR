@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BrickStockXML>
+<BrickStockXML>
+ <Inventory>
+  <Item>
+   <ItemID>3659</ItemID>
+   <ItemTypeID>P</ItemTypeID>
+   <ColorID>86</ColorID>
+   <ItemName>Brick, Arch 1 x 4</ItemName>
+   <ItemTypeName>Part</ItemTypeName>
+   <ColorName>Light Bluish Gray</ColorName>
+   <CategoryID>6</CategoryID>
+   <CategoryName>Brick, Arch</CategoryName>
+   <Status>I</Status>
+   <Qty>8</Qty>
+   <Price>0.090</Price>
+   <Condition>U</Condition>
+   <OrigPrice>0.000</OrigPrice>
+   <OrigQty>0</OrigQty>
+  </Item>
+  <Item>
+   <ItemID>3626b</ItemID>
+   <ItemTypeID>P</ItemTypeID>
+   <ColorID>1</ColorID>
+   <ItemName>Minifig, Head (Plain) - Blocked Open Stud</ItemName>
+   <ItemTypeName>Part</ItemTypeName>
+   <ColorName>White</ColorName>
+   <CategoryID>238</CategoryID>
+   <CategoryName>Minifig, Head</CategoryName>
+   <Status>I</Status>
+   <Qty>2</Qty>
+   <Price>0.360</Price>
+   <Condition>N</Condition>
+   <OrigPrice>0.000</OrigPrice>
+   <OrigQty>0</OrigQty>
+  </Item>
+ </Inventory>
+ <GuiState Application="BrickStock" Version="1">
+  <ItemView>
+   <ColumnOrder>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30</ColumnOrder>
+   <ColumnWidths>21,45,65,173,35,95,35,53,53,35,35,53,53,77,77,35,53,35,53,35,53,0,0,0,0,0,0,35,35,53,53</ColumnWidths>
+   <ColumnWidthsHidden>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,65,35,35,35,53,53</ColumnWidthsHidden>
+   <SortColumn>32</SortColumn>
+   <SortDirection>A</SortDirection>
+  </ItemView>
+ </GuiState>
+</BrickStockXML>
