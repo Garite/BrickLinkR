@@ -1,0 +1,6 @@
+lapply(list("shiny", "shinythemes", "shinyBS", "DT"), function(x) library(x, character.only=T))
+item_types <- c("Part", "Minifig", "Set")
+item_conditions <- c("New", "Used", "Both")
+regions <- c("", "Asia", "Africa", "North America", "South America", "Middle East", "Europe", "EU", "Oceania")
+countrycodes <- c("", "US")
+vat_options <- c("Exclude", "Include", "Norway")
