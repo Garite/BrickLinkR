@@ -23,8 +23,12 @@ Probabilities based on the CDF.
 
 [![priceguide4](https://github.com/leonawicz/BrickLinkR/raw/master/images/bricklinkr_PQ4.png)](#BrickLinkR)
 
-## Add a MYCOST field prior to uploading your items to BrickLink
+## Add a MYCOST field
 
+Add a MYCOST field prior to uploading your items to BrickLink.
+This is for files which do not contain a mycost field but can overwrite an existing field as well.
+It is useful for setting costs prior to uploading.
+The new file containing the MYCOST field displays in the browser and can be highlighted, copied and pasted to the BrickLink mass upload form.
 The MYCOST field can be set as a simple constant fraction of the item prices or, more commonly, based on a total cost of all items which is allocated proportionally based on items' values.
 
 [![mycost](https://github.com/leonawicz/BrickLinkR/raw/master/images/bricklinkr_addMCfield.png)](#BrickLinkR)
