@@ -1,6 +1,11 @@
 # BrickLinkR
 R Shiny web application to assist with BrickLink inventory management.
 
+This app is developmental and at any given time is unlikely to work without error given I have no involvement in the development of the BrickLink API or the BrickLink website in general.
+
+In its current form it can only run in the browser from the account of a specific BrinkLink user using their unique API credentials.
+My credentials (obviously) are excluded along with other R code required for the app to run.
+
 ## Price Guide
 
 See ttem sales and stock for any part, set, or minifig in a given condition and color with graphs, tables and statistics.
