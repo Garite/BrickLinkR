@@ -130,8 +130,8 @@ colortable <- get_colortable(blkey)
 # @knitr BL_xml_function
 get_BLxml <- function(file){
     require(XML)
-    xmlToDataFrame(nodes=getNodeSet(xmlParse(file), "/INVENTORY/ITEM")) %>% data.table %>%
-        mutate(QTY=as.numeric(as.character(QTY)), PRICE=as.numeric(as.character(PRICE)))
+    xmlToDataFrame(nodes=getNodeSet(xmlParse(file), "/INVENTORY/ITEM")) %>%
+        mutate(QTY=as.numeric(as.character(QTY)), PRICE=as.numeric(as.character(PRICE))) %>% data.table
 }
 
 toBLxml <- function(d){
